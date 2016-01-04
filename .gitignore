@@ -1,6 +1,6 @@
 node_modules
 dist
-.sass-cache
 .tmp
-src/vendor
-.DS_Store
+.sass-cache
+bower_components
+test/bower_components
