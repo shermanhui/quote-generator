@@ -1,8 +1,8 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang=''>
   <head>
     <meta charset="utf-8">
-    <meta name="description" content="">
+    <meta name="description" content=''>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>quote generator</title>
 
@@ -39,8 +39,14 @@
 
       <div class="jumbotron">
         <h1>Inspiration For You</h1>
-        <p class="lead">Quotes will appear here.</p>
-        <p><a class="btn btn-lg btn-success" id="generate" href="#">Generate Quote!</a></p>
+        <p class="lead" id="quote">
+          Quotes will appear here.
+          <p id="author"></p>
+        </p>
+        <div>
+          <a class="btn btn-lg btn-success" id="generate" href="#">Generate Quote!</a>
+          <a href="#" class="btn btn-info" id="tweetBtn">Tweet Quote</a>
+        </div>
       </div>
 
       <div class="footer">
